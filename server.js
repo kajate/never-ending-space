@@ -445,8 +445,8 @@ io.on("connection", function(socket) {
     });
 });
 
-// server.listen(process.env.PORT || 8080);
+server.listen(process.env.PORT || 8080);
 
-server.listen(8081, function() {
-    console.log(`Listening on ${server.address().port}`);
-});
+// server.listen(8081, function() {
+//     console.log(`Listening on ${server.address().port}`);
+// });
